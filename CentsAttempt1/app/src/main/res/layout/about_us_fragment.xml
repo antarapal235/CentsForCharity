@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/about_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hind_light"
+        android:padding="20dp"
+        android:text="Cents for Charity, expands on the success of the original “rounding up for charity” concept and gives users a further incentive to donate. Users are now given the freedom to select a charity that Cents for Charity partners with, allowing  users to contribute to charities they feel passionate about. Furthermore, the app includes a leaderboard, which is determined by a weighted average of the amount donated and how often donations occur. This gamification further encourages user engagement and increases the chances of users regularly donating. The best part about it is that it can be incorporated into your daily life. Anytime you want to purchase anything online, Cents for Charity can be used.  "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15"
+        android:id="@+id/guide_left"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85"
+        android:id="@+id/guide_right"/>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="158dp"
+        android:layout_height="126dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guide_right"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/guide_left"
+        app:layout_constraintTop_toBottomOf="@+id/about_us"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

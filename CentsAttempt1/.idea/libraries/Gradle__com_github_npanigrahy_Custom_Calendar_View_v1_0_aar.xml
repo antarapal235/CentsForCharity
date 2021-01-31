@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.npanigrahy:Custom-Calendar-View:v1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8005f00f675cdb4f8ddcb9dadd6c35a0/jetified-Custom-Calendar-View-v1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8005f00f675cdb4f8ddcb9dadd6c35a0/jetified-Custom-Calendar-View-v1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8005f00f675cdb4f8ddcb9dadd6c35a0/jetified-Custom-Calendar-View-v1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
